@@ -1,6 +1,7 @@
 main {
     max-width: 840px;
     color: black;
+    background-color: white;
 }
 
 nav {
@@ -11,12 +12,14 @@ nav {
 
 nav a {
     color: white;
+    background-color: black;
     display: block;
     padding: 20px;
 }
 
 h1 {
     color: darkblue;
+    background-color: yellow;
 }
 
 main img {

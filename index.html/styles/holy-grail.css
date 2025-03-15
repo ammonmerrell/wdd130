@@ -1,0 +1,21 @@
+header {
+    background-color: tan;
+
+}
+
+main {
+    background-color: rgba(82, 82, 112, 0.2);
+}
+img { width: 200px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px  grey;}
+
+aside {
+    width: 13rem;
+    border: 2px solid rgb(0,0,0/0.2);
+    padding: 1rem;
+    background-color: #383c75;
+    color: burlywood;
+}

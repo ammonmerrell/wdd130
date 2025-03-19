@@ -1,3 +1,8 @@
+:root {
+--color:darkblue;
+--length-px:10px;
+}
+
 main {
     max-width: 840px;
     color: black;
@@ -5,8 +10,8 @@ main {
 
 nav {
     color: yellow;
-    background-color: rgb(0, 170, 255);
-    padding: 10px;
+    background-color: var(--color);
+    padding: var(--length-px);
 }
 
 nav a {
@@ -16,7 +21,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--color);
 }
 
 main img {
@@ -47,7 +52,7 @@ p {
 }
 
 footer {
-    margin-top: 10px;
+    margin-top: var(--length-px);
     border-top: 1px solid #000;
     text-align: center;
 } 

@@ -1,12 +1,31 @@
+<<<<<<< HEAD
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+--color: darkblue;
+--length-px: 10px;
+}
+
+>>>>>>> 3c94b1af23d7d685c48471b306912a7b505779be
 main {
     max-width: 840px;
     color: black;
 }
 
 nav {
+<<<<<<< HEAD
     color: white;
     background-color: darkblue;
     padding: 10px;
+=======
+    color: yellow;
+    background-color: var(--color);
+    padding: var(--length-px);
+>>>>>>> 3c94b1af23d7d685c48471b306912a7b505779be
 }
 
 nav a {
@@ -16,7 +35,11 @@ nav a {
 }
 
 h1 {
+<<<<<<< HEAD
     color: darkblue;
+=======
+    color: var(--color);
+>>>>>>> 3c94b1af23d7d685c48471b306912a7b505779be
 }
 
 main img {
@@ -24,17 +47,32 @@ main img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
+<<<<<<< HEAD
     margin: 0px;
     box-shadow: 0 0 30px grey;
+=======
+    margin: 1px;
+    box-shadow: 0 0 30px grey;
+    float: right;
+>>>>>>> 3c94b1af23d7d685c48471b306912a7b505779be
 }
 
 aside {
     width: 20rem;
+<<<<<<< HEAD
     margin: 1rem;
     border: 2px solid rgb(0, 0, 0/ 0.2);
     padding: 2rem;
     background-color: burlywood;
     color: #383c75;
+=======
+}
+
+aside h2 {
+    position: absolute;
+    top: 565px;
+    left: 30px;
+>>>>>>> 3c94b1af23d7d685c48471b306912a7b505779be
 }
 
 aside img {
@@ -47,7 +85,23 @@ p {
 }
 
 footer {
+<<<<<<< HEAD
     margin-top: 10px;
     border-top: 1px solid #000;
     text-align: center;
 } 
+=======
+    margin-top: var(--length-px);
+    border-top: 1px solid #000;
+    text-align: center;
+} 
+
+/* class selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0,0,0 / 10); 
+    padding: 1rem; 
+    background-color: burlywood; 
+    color: #383c75;
+}
+>>>>>>> 3c94b1af23d7d685c48471b306912a7b505779be

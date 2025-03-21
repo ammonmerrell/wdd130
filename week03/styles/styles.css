@@ -1,0 +1,17 @@
+main {
+    --primary-color: #05668D;
+    --secondary-color: #FDF2AF;
+    --accent1-color: #C5BB8C;
+    --accent2-color: #427AA1;
+    --heading-font: 300;
+}
+
+body {
+    font-family: "Winky Sans", sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 800;
+}
+

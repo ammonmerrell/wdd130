@@ -5,6 +5,7 @@
     --accent2-color: #427AA1;
     --heading-font: 300;
 }
+
 head{
 
     font-family: "Winky Sans", sans-serif;
@@ -23,22 +24,28 @@ p{
 
 .hero {
     position: relative;
+    color: var(--primary-color);
 }
 
 .hero img{
     display: block;
     width: 100%;
     height: auto;
+    position: relative;
 }
 
 h1 {
     position: absolute;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
+
 article {
     background-color: var(--secondary-color);
     opacity: 90%;
     position: absolute;
 }
+
 article img {
     float: right;
 }

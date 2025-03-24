@@ -24,17 +24,18 @@ p{
     text-decoration: none;
 }
 
-.hero {
+ .hero div { 
     position: relative;
     color: var(--primary-color);
 }
 
-.hero img{
+.hero img{ 
     display: block;
     width: 100%;
     height: auto;
-    position: relative;
-    opacity: 100%;
+    /* position: relative; */
+    /* opacity: 100%; */
+    /* float: right; */
 }
 
 h1 {
@@ -45,10 +46,18 @@ h1 {
 
 article {
     background-color: var(--secondary-color);
-    opacity: 90%;
+    opacity: 100%;
     position: absolute;
 }
 
 article img {
     float: right;
+    opacity: 10%;
+}
+
+.gallery img{
+    width: 10%;
+    height: auto;
+    position: relative;
+    opacity: 10%;
 }

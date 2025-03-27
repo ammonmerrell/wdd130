@@ -37,6 +37,9 @@ p{
 }
 .social-links{
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
  .hero div { 
@@ -75,9 +78,4 @@ article img {
     height: auto;
     position: relative;
     opacity: 10%;
-}
-footer nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
 }

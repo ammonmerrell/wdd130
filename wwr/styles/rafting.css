@@ -61,7 +61,7 @@ h1 {
 
 article {
     background-color: var(--secondary-color);
-    opacity: 100%;
+    opacity: 50%;
     position: absolute;
 }
 
@@ -75,4 +75,9 @@ article img {
     height: auto;
     position: relative;
     opacity: 10%;
+}
+footer nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }

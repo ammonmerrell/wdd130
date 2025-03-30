@@ -52,12 +52,11 @@ p{
     flex-direction: row;
     justify-content: flex-end;
 }
+
 .hero article{
     position: absolute;
 }
-.hero .art-img img{
-    float: right;
-}
+
  .hero div { 
     position: relative;
     color: var(--primary-color);
@@ -69,7 +68,6 @@ p{
     width: 100%;
     height: auto;
     position: absolute;
-    /* opacity: 100%; */
     float: right;
 }
 

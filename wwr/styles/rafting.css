@@ -32,6 +32,24 @@ header nav{
     justify-content: space-evenly;
 }
 
+.hero div { 
+    position: relative;
+    color: var(--primary-color);
+    display: block;
+}
+
+.hero img{ 
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+
+}
+
+.hero p{
+    color: var(--primary-color);
+}
+
 h1 {
     margin: 50px 700px;
     padding: 1px;
@@ -49,33 +67,13 @@ p{
     font: var(--primary-color)
 }
 
-.social-links{
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-.hero article{
-    /* position: relative; */
-}
-
-.hero div { 
+.hero article img{
+    float: right;
+    opacity: 100%;
+    width: 200px;
     position: relative;
-    color: var(--primary-color);
-    display: block;
-}
+    margin: 50px;
 
-.hero img{ 
-    display: block;
-    width: 100%;
-    height: auto;
-    position: absolute;
-
-}
-
-.hero p{
-    color: var(--primary-color);
 }
 
 .history section{
@@ -112,14 +110,6 @@ article {
     color: var(--primary-color);
 }
 
-.hero article img{
-    float: right;
-    opacity: 100%;
-    width: 200px;
-    position: relative;
-    margin: 50px;
-
-}
 
 .gallery section{
     display: grid;
@@ -167,6 +157,13 @@ figure {
 .five img{
     grid-column-start: 5;
 	grid-row-start: 1;
+}
+
+.social-links{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 footer{

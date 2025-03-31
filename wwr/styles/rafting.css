@@ -33,6 +33,8 @@ header nav{
 }
 
 h1 {
+    margin: 50px 500px;
+    padding: 1px;
     position: absolute;
     font-family: "Winky Sans", sans-serif;
     font-weight: 300;
@@ -78,6 +80,7 @@ p{
 .history section{
     display: grid;
     grid-template: 3fr 3fr 3fr / 50% 50%;
+    position: absolute;
 
 }
 

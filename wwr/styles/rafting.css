@@ -54,10 +54,10 @@ p{
 }
 
 .hero article{
-    position: absolute;
+    /* position: relative; */
 }
 
- .hero div { 
+.hero div { 
     position: relative;
     color: var(--primary-color);
     display: block;
@@ -68,7 +68,7 @@ p{
     width: 100%;
     height: auto;
     position: absolute;
-    float: right;
+
 }
 
 .hero p{
@@ -104,15 +104,21 @@ h2{
 }
 
 article {
+    margin: 100px 50px;
+    padding: 10px;
     background-color: var(--secondary-color);
     opacity: 100%;
     position: absolute;
     color: var(--primary-color);
 }
 
-article img {
+.hero article img{
     float: right;
-    opacity: 10%;
+    opacity: 100%;
+    width: 200px;
+    position: relative;
+    margin: 50px;
+
 }
 
 .gallery section{

@@ -11,7 +11,7 @@ head{
 
     font-family: "Winky Sans", sans-serif;
     font-weight: 800;
-    font: var(--accent1-color)
+    color: var(--accent1-color)
 }
 
 header{
@@ -64,7 +64,7 @@ h1 {
 p{
     font-family: "Winky Sans", sans-serif;
     font-weight: 300;
-    font: var(--primary-color)
+    color: var(--primary-color)
 }
 
 .hero article img{

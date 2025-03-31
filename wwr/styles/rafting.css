@@ -76,7 +76,7 @@ p{
 
 }
 
-.history section{
+.middle section{
     display: grid;
     grid-template: 3fr 3fr 3fr / 50% 50%;
     position: absolute;
@@ -97,9 +97,6 @@ p{
     color: var(--primary-color);
 }
 
-h2{
-    color: var(--primary-color);
-}
 
 article {
     margin: 100px 50px;

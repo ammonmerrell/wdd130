@@ -43,8 +43,37 @@
                 <img src="images/avtar-singh-sandhu-hDkKVIa1F7Y-unsplash.jpg" alt="">
                 <figcaption>Junior Executive Rafting Guide</figcaption>
             </figure>
-
         </section>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="name">
+                    <label>Fullname: <input type="text" name="fullname"></label>
+                </div>
+                <div class="email">
+                    <label>Email: <input type="text" name="email"></label> 
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Email</legend>
+                <div class="purpose">
+                    <p>purpose: </p>
+                    <label>General Inquiry<input type="radio" name="inquiry"></label>
+                    <label>Reservation Question<input type="radio" name="reservation"></label>
+                    <label>Website Suggestion<input type="radio" name="suggestion"></label>
+                </div>
+                <div class="message">
+                    <label for="message">message: </label>
+                    <textarea id="message" name="message" rows="4" placeholder="Enter text here."></textarea>
+                </div>
+                <div class="newsletter">
+                    <!-- <label for="newsletter">newsletter subscription</label> -->
+                    <input type="checkbox" id="news" name="news" value="news">
+                    <label for="pet">Please subscribe me to the monthly newsletter</label>
+                </div>
+            </fieldset>
+            <button type="submit">Submit Email</button>
+        </form>
     </main>
     <footer>
         <p>&copy; 2025 | White Water Rafting | Ammon Merrell</p>

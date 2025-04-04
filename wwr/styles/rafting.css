@@ -249,8 +249,8 @@ figure {
     grid-column: 1;
     /* margin-left: 500px; */
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
-    grid-row: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1;
 }
 
 .employee img {

@@ -298,6 +298,11 @@ figure {
     color: black;
 }
 
+button:hover {
+    color: rgb(192, 197, 30);
+    background-color: rgb(139, 48, 48);
+}
+
 /* .form .purpose {
     display: flex;
     flex-direction: row;

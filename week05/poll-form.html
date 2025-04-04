@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="styles/poll-form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,19 +21,27 @@
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
-                <label>Full Name<input type="text" name="fullname"></label>
-                <label>Email<input type="email" name="useremail"></label>
+                <div class="form-item column2">
+                    <label>Full Name<input type="text" name="fullname"></label>
+                </div>
+                <div class="form-item column2">
+                    <label>Email<input type="email" name="useremail"></label>
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
                 <label for="browser">What is you favorite Browser?</label>
-                <select id="browser" name="browser">
+                <div class="form-item">
+                    <select id="browser" name="browser"></select>
+                </div>
                     <option value="Chrome">Google Chrome</option>
                     <option value="edge">Microsoft Edge</option>
                     <option value="firefox">Mozilla Firefox</option>
                 </select>
                 <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" id="pet" name="pet" value="pet">
+                <div class="form-item">
+                    <input type="checkbox" id="pet" name="pet" value="pet">
+                </div>
                 <label for="pet">Yes</label>
                 <label for="feedback">List the places you have lived.</label>
                 <textarea id="feedback" name="feedback" rows="4" placeholder="London England, Tibuktu Mali, Stillwater Flordia, Venice Italy"></textarea>

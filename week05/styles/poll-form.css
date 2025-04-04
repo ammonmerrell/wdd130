@@ -1,16 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Tinos", serif;
+  /* color: rgb(60, 60, 149);
+  background-color: burlywood; */
+}
 
+header {
+  margin: 10px;
+}
+
+h1 {
+  margin: 10px;
+  /* text-align: center; */
+}
+
+form {
+  width: 100px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgb(1, 1, 1 / 0.1);
+  border-radius: 0.5rem;
+  background-color: rgb(111, 109, 109);
+  text-align: center;
+  display: grid;
+  /* grid-template-rows: 1fr; */
+  /* grid-template-columns: 1fr; */
+}
+
+fieldset {
+  display: grid;
+  grid-gap: 0.5rem;
+  margin: 1rem;
+  border: 1px solid rgb(2, 2, 2 / 0.1);
+  padding: 1rem;
+}
+
+legend {
+  padding: 0.5rem;
+  color: navy;
+  font-size: 1.3em;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+.column1 {
+  grid-template-columns: 3fr 1fr;
+  margin: 0.50px;
+}
+
+.column2 {
+  grid-template-columns: 1fr, 2fr;
+}
+
+/* label, input, button, select, textarea {
+  color: burlywood, blue, black, gray;
+} */
+
+label {
+  text-align: right;
+  padding-right: 1px;
+}
+
+input,select,textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 20px;
+  vertical-align: bottom;
+}
+
+button {
+  background-color: navy;
+  color: blue;
+}
+
+button:hover {
+  color: red;
+  background-color: rgb(152, 16, 16);
+}
 
 .tinos-regular {
-    font-family: "Tinos", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 .montserrat-uniquifier {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-  }
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+footer {
+  color: white;
+  background-color: grey;
+}

@@ -325,6 +325,10 @@ button:hover {
     flex-direction: row;
 } */
 
+.help {
+    margin-left: 100px;
+    border: 100px;
+}
 .social-links{
     text-decoration: none;
     display: flex;

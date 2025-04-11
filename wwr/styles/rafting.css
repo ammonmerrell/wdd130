@@ -245,6 +245,9 @@ figure {
     height: auto;
 }
 
+.table p{
+    margin-right: 100px;
+}
 .info {
     /* grid-row: 1/2; */
     grid-row-start: 1;
@@ -328,6 +331,11 @@ figure {
 }
 .form p {
     color: black;
+}
+
+.contact_us {
+    margin-top: 200px;
+    margin-left:300px;
 }
 
 button:hover {

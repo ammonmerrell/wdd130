@@ -318,7 +318,9 @@ figure {
 button:hover {
     color: rgb(192, 197, 30);
     background-color: rgb(139, 48, 48);
+    text-decoration: none;
 }
+
 
 /* .form .purpose {
     display: flex;

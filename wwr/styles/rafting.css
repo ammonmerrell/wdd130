@@ -366,6 +366,25 @@ button:hover {
     grid-column: 2;
 }
 
+table {
+    /* margin-top: 100px; */
+    font-family: "Winky Sans", sans-serif;
+    font-weight: 800;
+    color: var(--primary-color)
+}
+
+thead, tfoot {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+
+
+
+tbody {
+    background-color: var(--accent1-color);
+}
+
 .center {
     grid-row: 1;
     grid-column: 2;
